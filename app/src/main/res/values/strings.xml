@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Pirozhkov12</string>
+    <string name="text_Up">\n Просмотр фото</string>
+    <string name="but_back">назад</string>
+    <string name="but_forw">вперед</string>
+</resources>
