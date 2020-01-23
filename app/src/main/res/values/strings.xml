@@ -3,4 +3,5 @@
     <string name="text_Up">\n Просмотр фото</string>
     <string name="but_back">назад</string>
     <string name="but_forw">вперед</string>
+    <string name="hyper">http://wwww.myfiles.org/</string>
 </resources>
