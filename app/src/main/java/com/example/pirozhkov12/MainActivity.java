@@ -18,17 +18,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final TextView result = findViewById(R.id.textView);
-        final String currentResult;
-        final String resultLast;
-        final Intent intent = new Intent(this, MainActivity.class);
+
+        TextView result = findViewById(R.id.textView);
+        result.append("http://wwww.myfiles.org/"+Integer.toString(new Random().nextInt(100) + 1));
 
         Button butRight = findViewById(R.id.button2);
+
         butRight.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, MainActivity.class);
                 startActivity(intent);
-                result.append("http://wwww.myfiles.org/"+Integer.toString(new Random().nextInt(100) + 1));
             }
         });
 
